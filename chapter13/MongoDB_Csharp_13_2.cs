@@ -1,4 +1,4 @@
-APP.CONFIG
+//在APP.CONFIG檔案中設置連線字串
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <startup> 
@@ -8,8 +8,8 @@ APP.CONFIG
          <add name="strCon" connectionString="mongodb://<mongodb_user>:<mongodb_pwd>@<host1>:<port>,<host2>:<port>,<host3>:<port>/?replicaSet=myRepSet"/>
     </connectionStrings>
 </configuration>
-   
-遍歷列印資料庫的程式
+//------------------------------------------------------------------------------------   
+//遍歷列印資料庫的程式
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
