@@ -1,8 +1,8 @@
-（2）「mongodb.properties」檔案
+//12.2（2）「mongodb.properties」檔案
 mongodb.url=mongodb://user1:pwd1@host1:27017,host2:27017,host3:27017/?replicaSet=myRepSet
 
 
-（3）「MongoDBClient」類別
+//12.2（3）「MongoDBClient」類別
 public class MongoDBClient {
     private MongoDBClient() {
     }
@@ -55,7 +55,7 @@ public static  MongoClient getMongoClient() {
 
 
 
-（4）「PrintDB」的類別
+//12.2（4）「PrintDB」的類別
 public class PrintDB {
    public static void main(String[] args) {
      //列印出伺服器的所有資料庫
