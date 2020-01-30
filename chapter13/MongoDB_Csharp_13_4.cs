@@ -1,4 +1,4 @@
-13.4.1  限制查詢結果集大小
+//13.4.1  限制查詢結果集大小
 //---1. 查詢所有文檔的兩種方法
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -75,7 +75,7 @@ namespace MongoDBTest
     }
 }
    
-13.4.2  限制查詢返回的欄位
+//13.4.2  限制查詢返回的欄位
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -115,7 +115,7 @@ namespace MongoDBTest
     }
 }
   
-13.4.3  按條件進行查詢
+//13.4.3  按條件進行查詢
 //---1. 單個條件查詢
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -192,7 +192,7 @@ namespace MongoDBTest
     }
 }
    
-13.4.4  將查詢結果分頁顯示
+//13.4.4  將查詢結果分頁顯示
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -249,7 +249,7 @@ namespace MongoDBTest
   
 }
    
-13.4.5  使用聚合方法查詢文檔
+//13.4.5  使用聚合方法查詢文檔
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -289,7 +289,7 @@ namespace MongoDBTest
     }
 }
   
-13.4.6  應用索引查詢
+//13.4.6  應用索引查詢
 //---1. 一般索引
 using MongoDB.Bson;
 using MongoDB.Driver;
