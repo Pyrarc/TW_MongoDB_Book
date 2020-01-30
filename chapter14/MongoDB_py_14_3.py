@@ -1,4 +1,4 @@
-14.3.1  新增文檔
+#14.3.1  新增文檔
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
       
@@ -27,7 +27,7 @@ new_doc={"Name" : "Nina",
 collection.insert(new_doc)
 print("Number of Documents: "+str(collection.find().count()))
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
@@ -58,7 +58,7 @@ doc=collection.find_one({"Name":"Lucy"})
 print(doc)
 print("Number of Documents: "+str(collection.find().count()))
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
@@ -98,7 +98,7 @@ new_doc_count=collection.find({"Name":{"$in":["Tony","Cindy"]}}).count()
 print("Number of Inserted Documents: "+str(new_doc_count))
 print("Number of Total Documents: "+str(collection.find().count()))
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
@@ -142,7 +142,7 @@ pprint(doc)
  
 --------------------------------------------------------------------------------- 
       
-14.3.2 刪除文檔
+#14.3.2 刪除文檔
 
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
@@ -169,7 +169,7 @@ doc=collection.find_one(query)
 print("The Document of 'Cindy' after deleted:")
 print(doc)
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
@@ -186,9 +186,9 @@ collection=db["Members"]
           
 result = collection.delete_many({})
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
-14.3.3 修改文檔
+#14.3.3 修改文檔
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
       
@@ -214,7 +214,7 @@ doc=collection.find_one({"Name":"Anna"})
 print("Doc after modify:")
 pprint(doc)
 
---------------------------------------------------------------------------------- 
+#--------------------------------------------------------------------------------- 
  
 #!/usr/bin/python
 #This Python file uses the following encoding:utf-8
